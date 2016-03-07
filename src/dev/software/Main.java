@@ -7,8 +7,10 @@ public class Main {
 	public String inputExpression;
 	public float[] operands = new float[10];
 	public char[] operator = new char[10];
+	public float result;
+	public String _errorMessage;
 	
-	private String[] splitArray = new String[3];
+	public String[] splitArray = new String[3];
 	
 	
 	public String[] extractionPoint(String inputString) {
@@ -24,9 +26,17 @@ public class Main {
 			operands[1] = Float.parseFloat(splitArray[1]);
 		}catch(NullPointerException a) {
 			System.out.println(a);
+		}catch(NumberFormatException b) {
+			System.out.println("Wrong operator format, should be floating number/integer.");
 		}
 		
 		return operands;
+	}
+	
+	public char[] getOperator(String inputString) {
+		operator = splitArray[2].toCharArray();
+		
+		return operator;
 	}
 	
 	public void showData() {
@@ -51,13 +61,18 @@ public class Main {
 	public static void main(String[] args) {
 		// Created an object
 		Main object = new Main();
+		Algorithm calculate = new Algorithm();
 		
 		object.getData();
 		object.extractionPoint(object.inputExpression);
+		
 		object.getOperands(object.inputExpression);
-
-		System.out.println(object.operands[0]+" & "+object.operands[1]);
-
+		object.getOperator(object.inputExpression);
+		
+		calculate.operationCalculate(object.operands, object.operator);
+		System.out.println(calculate.result);
+		
+		
 	}
 
 }
