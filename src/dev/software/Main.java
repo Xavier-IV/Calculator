@@ -65,7 +65,7 @@ public class Main {
 		
 		object.getData();
 		object.extractionPoint(object.inputExpression);
-		
+		// Operation to get the operands and operators
 		object.getOperands(object.inputExpression);
 		object.getOperator(object.inputExpression);
 		
