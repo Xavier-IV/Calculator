@@ -65,10 +65,12 @@ public class Main {
 		
 		object.getData();
 		object.extractionPoint(object.inputExpression);
+		
 		// Operation to get the operands and operators
 		object.getOperands(object.inputExpression);
 		object.getOperator(object.inputExpression);
-		
+
+		// Operation to calculate from algorithm
 		calculate.operationCalculate(object.operands, object.operator);
 		System.out.println(calculate.result);
 		
