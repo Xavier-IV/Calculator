@@ -70,7 +70,7 @@ public class Main {
 		object.getOperands(object.inputExpression);
 		object.getOperator(object.inputExpression);
 
-		// Operation to calculate from algorithm
+		// Operation to calculate from the algorithm
 		calculate.operationCalculate(object.operands, object.operator);
 		System.out.println(calculate.result);
 		
