@@ -7,8 +7,7 @@ public class Main {
 
 	public String[] inputExpression = new String[10];
 	public float[] operands = new float[10];
-	public char[
-	            ] operator = new char[10];
+	public char[] operator = new char[10];
 	public float result;
 	public String _errorMessage;
 	int noOfExpression = 0;
