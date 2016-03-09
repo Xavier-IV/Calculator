@@ -23,7 +23,10 @@ to check your current Java version
 
 #### How to use
 
-* Open the project with Eclipse IDE, and direct the open project path to this project folder.
+* Open your Eclipse, File > Import.
+* Choose General > Existing Projects into Workspace
+* On the Select Root Directory, direct the File Explorer towards this downloaded folder.
+* You're done!
 
 ### Bugs and enhancements
 

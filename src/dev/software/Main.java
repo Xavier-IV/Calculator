@@ -14,6 +14,8 @@ public class Main {
 
 	public String[] splitArray = new String[3];
 	public String[] splitArrayBuffer = null;
+	private static Scanner input;
+	private Scanner input2;
 	
 
 	
@@ -75,7 +77,7 @@ public class Main {
 		Algorithm calculate = new Algorithm();
 		Main object = new Main();
 
-		Scanner input2 = new Scanner(System.in);
+		input2 = new Scanner(System.in);
 		// Keep asking user for input if inputExpression, max 10
 		do {
 			System.out.println("Please enter a mathematical expression, with postfix");
@@ -106,7 +108,7 @@ public class Main {
 	public static void main(String[] args) throws IOException {
 		Main object = new Main();
 
-		Scanner input = new Scanner(System.in);
+		input = new Scanner(System.in);
 		System.out.println("Please choose an option:\n1.Calculate from file\n2.Calculate from keyboard input");
 		int option = input.nextInt();
 		
