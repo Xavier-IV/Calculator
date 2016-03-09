@@ -11,6 +11,10 @@ Please read the LICENSE for the licensing of Calculator.
 #Features
 Calculator is a Java powered software that calculates mathematical expressions with postfix expressions.
 
+######New Features :
+* Added functionality to read input.txt file, and process the data from it
+* User has options for keyboard input or file input.
+
 #### Requirement
 
 This program require Java of minimum 1.7 to be installed on your system. Type:
