@@ -1,5 +1,5 @@
 package dev.software;
 
-public class Validator {
+public class Validator extends Main {
 
 }
