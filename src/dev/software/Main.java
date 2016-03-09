@@ -1,3 +1,11 @@
+/*
+ * @Author Mohamad Zafranudin Zafrin @ Xavier-IV
+ * @Copyright 2016 Calculator
+ * 
+ * This is the Main class for the project.
+ * 
+ */
+
 package dev.software;
 
 import java.io.IOException;
