@@ -4,7 +4,7 @@ Copyright 2016 Calculator
 Written by: Mohd Zafranudin(Xavier-IV)
 
 Social: [Facebook](https://www.facebook.com/PuteraMujahidIslam)
-		[Twitter](https://twitter.com/xavicca)
+		[Twitter](https://twitter.com/MohdZafranudin_)
 		
 Please read the LICENSE for the licensing of Calculator. 
 
